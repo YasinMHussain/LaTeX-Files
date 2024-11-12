@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+% \fancyhead[L]{}
+% \fancyhead[R]{}
+\fancyfoot[L]{1 SEM MCA {CBCS} CPPS 102}
+
+% Document begins here
+\begin{document}
+
+% Title Section
+\begin{center}
+    {\LARGE \textbf{COMPUTER APPLICATION}}\\[0.5cm]
+    {\large Paper : MCA 102 \\
+    \large (Computer Programming and Problem Solving)}\\[0.5cm]
+    \text{Full Marks:} 60 \\
+    \text{Pass Marks:} 27 \\
+    \text{Time :} 3 Hours \\ [0.5cm]
+    \textbf{The figures in the margins indicate full marks for the questions.}
+   
+\end{center}
+\vspace{0.5cm}
+
+% Question Sections
+\section{\textbf{Answer the following:} \hfill \texttt{2 x 5 = 10}}
+\begin{enumerate}[label=(\alph*)]
+    \item What does data type of a variable signify? 
+    \item What is flowcahrt? Why is it used? 
+    \item What is type conversion?
+    \item What is the difference between break and continue statements?
+    \item What is null pointer?
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\section{\noindent\textbf{Answer the following:} \hfill \texttt{4 x 5 = 20}}
+\begin{enumerate}[label=(\alph*)]
+    \item List qualities and capabilities of good algorithms.
+    \item Explain with example how an array of strings in stored in memory.
+    \item Given a number m, devise an algorithm to compute its reverse.
+    \item Write an algorithm and a C program to calculate \textit{pow(x,n)}, i.e., to calculate \( x^n \).
+    \item Design an algorithm to find the sum of the digits of an integer.
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\section{\noindent\textbf{Answer the following:} \hfill \texttt{5 x 6 = 30}}
+\begin{enumerate}[label=(\alph*)]
+    \item Let a = 1, b = 1 and c = 0. What is the value of a, b, c after executing the following code:
+        \begin{verbatim}
+        if (c > a || b >= c && c ==1)
+        if (c && b) b = 1; else a = 1;
+        \end{verbatim}
+    \item With the help of syntax and example, explain the strpcy() and strcmp() functions.
+    \item Write a C program to enter a decimal number and then calculate its binary equivalent.
+    \item Write th differences between call by value and call by reference.
+    \item Write a C program to print the diagonal elements of a given matrix
+    \item Write a C program to find the sum of the following series:
+    \begin{center}
+        s=1/2 + 2/3 + .........+ n/(n+1)
+    \end{center}    
+\end{enumerate}
+
+\vfill
+
+% End of the document
+\begin{center}
+    \textbf{--- **************** ---}
+\end{center}
+
+\end{document}
