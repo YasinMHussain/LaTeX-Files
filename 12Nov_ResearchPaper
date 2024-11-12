@@ -1,0 +1,63 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{cite}
+\geometry{margin=1in}
+
+\title{An Overview of Quantum Computing and Its Applications}
+\author{Yasin M Hussain\\ Centre for Computer Science and Applications \\ Dibrugarh University\\ \texttt{email@example.com}}
+\date{November 12, 2024}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Quantum computing is a revolutionary technology that leverages quantum mechanics to solve complex computational problems beyond the capacity of classical computers. This paper provides an overview of the principles of quantum computing, including qubits, superposition, and entanglement. We discuss various quantum algorithms, their applications in fields such as cryptography and drug discovery, and the current challenges in developing scalable quantum computers.
+\end{abstract}
+
+\section{Introduction}
+Quantum computing has the potential to transform industries by providing unprecedented computational power. Unlike classical computers, which process information in binary, quantum computers use quantum bits or qubits that can exist in multiple states simultaneously. This paper aims to introduce the fundamentals of quantum computing, explore key quantum algorithms, and highlight applications and challenges in this emerging field.
+
+\section{Literature Review}
+Early research in quantum computing laid the foundation for understanding the unique properties of quantum mechanics in computation. Notably, Shor's algorithm for factoring large numbers demonstrated quantum computing's potential in cryptography \cite{shor1994algorithms}. Grover's algorithm further illustrated the power of quantum search capabilities \cite{grover1996fast}. Recent studies focus on the application of quantum computing in optimization, machine learning, and drug discovery.
+
+\section{Quantum Computing Fundamentals}
+Quantum computing operates on principles of quantum mechanics, specifically utilizing properties such as superposition and entanglement.
+
+\subsection{Qubits and Superposition}
+Qubits are the fundamental units of quantum computing, analogous to bits in classical computing. Unlike a classical bit, which is either 0 or 1, a qubit can exist in a superposition of states, allowing it to represent both 0 and 1 simultaneously. This property enables quantum computers to perform many calculations in parallel.
+
+\subsection{Entanglement}
+Entanglement is a phenomenon in which qubits become linked, such that the state of one qubit is dependent on the state of another, regardless of distance. This interdependence is critical for the functionality of quantum algorithms, enabling faster computation and secure communication.
+
+\section{Quantum Algorithms}
+Several quantum algorithms illustrate the unique capabilities of quantum computers.
+
+    \subsection{Shor's Algorithm}
+    Shor's algorithm provides an efficient solution for factoring large numbers, which poses a threat to classical cryptographic systems based on RSA encryption. The algorithm's ability to break down complex numbers makes it a powerful tool for cryptanalysis \cite{shor1994algorithms}.
+
+    \subsection{Grover's Algorithm}
+    Grover's algorithm is used for searching unsorted databases in quantum computing, providing a quadratic speedup over classical search algorithms. This algorithm has applications in database management and optimization tasks \cite{grover1996fast}.
+
+
+\section{Applications of Quantum Computing}
+Quantum computing holds promise in various fields, offering solutions to problems that are infeasible for classical computers.
+
+\subsection{Cryptography}
+Quantum computing's capability to solve complex mathematical problems poses a challenge to traditional cryptography, requiring the development of quantum-resistant cryptographic protocols.
+
+\subsection{Drug Discovery and Material Science}
+Quantum computers can simulate molecular structures and interactions at an atomic level, accelerating drug discovery and material science research by providing insights into complex chemical processes.
+
+\section{Challenges and Future Directions}
+Despite its potential, quantum computing faces significant challenges, including qubit stability, error correction, and the need for extremely low temperatures. Ongoing research is aimed at developing more stable qubits, improving error correction methods, and designing scalable quantum systems. The development of quantum-resistant encryption standards is also essential for cybersecurity.
+
+\section{Conclusion}
+Quantum computing is an exciting and rapidly evolving field with the potential to solve problems currently beyond the reach of classical computers. While challenges remain, advancements in quantum hardware and algorithms continue to bring us closer to realizing the full potential of quantum technology. Further research and development in this area could lead to breakthroughs in cryptography, healthcare, and beyond.
+
+\begin{thebibliography}{9}
+    \bibitem{shor1994algorithms} P. W. Shor, ``Algorithms for Quantum Computation: Discrete Logarithms and Factoring,'' in \textit{Proceedings of the 35th Annual Symposium on Foundations of Computer Science}, 1994.
+    \bibitem{grover1996fast} L. K. Grover, ``A fast quantum mechanical algorithm for database search,'' in \textit{Proceedings of the 28th Annual ACM Symposium on Theory of Computing}, 1996.
+\end{thebibliography}
+
+\end{document}
