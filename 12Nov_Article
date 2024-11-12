@@ -1,0 +1,43 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{An Introduction to Quantum Computing}
+\author{Yasin M Hussain \\ Centre for Computer Science and Applications\\ Dibrugarh University \\ \texttt{yasin@gmail.com}}
+\date{November 12, 2024}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Quantum computing is a rapidly emerging field that leverages the principles of quantum mechanics to perform computations in fundamentally different ways compared to classical computers. This article provides a concise overview of the basic principles of quantum computing, including qubits, superposition, and entanglement, and discusses potential applications and current challenges.
+\end{abstract}
+
+\section{Introduction}
+Quantum computing has the potential to revolutionize industries by solving complex problems that are intractable for classical computers. Unlike classical bits, which can be either 0 or 1, quantum bits, or qubits, can exist in multiple states simultaneously due to the property of superposition. This article explores the fundamental principles behind quantum computing and highlights its potential applications.
+
+\section{Quantum Bits (Qubits)}
+A qubit is the basic unit of information in quantum computing, analogous to a bit in classical computing. However, while a classical bit can only hold a value of 0 or 1, a qubit can represent both 0 and 1 simultaneously due to superposition. This section will delve into the unique properties of qubits, including superposition and entanglement, which enable quantum computers to perform computations differently than classical computers.
+
+    \subsection{Superposition}
+    Superposition allows qubits to exist in multiple states at once, a phenomenon that classical bits cannot achieve. This property exponentially increases the computational power of quantum computers as the number of qubits grows.
+
+    \subsection{Entanglement}
+    Entanglement is another key property of qubits. When qubits become entangled, the state of one qubit is directly related to the state of another, regardless of the distance between them. This correlation allows quantum computers to perform complex calculations more efficiently than classical computers.
+
+\section{Applications of Quantum Computing}
+Quantum computing has numerous potential applications in various fields, including cryptography, drug discovery, and optimization. For instance, quantum algorithms could break modern encryption methods, leading to a need for quantum-resistant cryptographic protocols.
+
+\section{Challenges and Future Directions}
+Despite its potential, quantum computing faces several challenges, including qubit stability and error correction. Current quantum computers are susceptible to decoherence, which affects the reliability of computations. Researchers are actively working on solutions to overcome these challenges and realize the full potential of quantum computing.
+
+\section{Conclusion}
+Quantum computing represents a paradigm shift in computational technology. Although it is still in its infancy, the advancements in quantum computing are promising. Continued research and development in this field may lead to groundbreaking applications that could reshape the future of computing.
+
+\begin{thebibliography}{9}
+    \bibitem{shor} P.W. Shor, ``Algorithms for Quantum Computation: Discrete Logarithms and Factoring,'' in \textit{Proceedings of the 35th Annual Symposium on Foundations of Computer Science}, 1994.
+    \bibitem{nielsen} M.A. Nielsen and I.L. Chuang, \textit{Quantum Computation and Quantum Information}, Cambridge University Press, 2000.
+\end{thebibliography}
+
+\end{document}
