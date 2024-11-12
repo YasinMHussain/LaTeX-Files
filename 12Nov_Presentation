@@ -1,0 +1,152 @@
+\documentclass{beamer} 
+\usepackage{graphicx}
+\usetheme{Antibes} %Madrid
+\author{Yasin Musfic Hussain}
+\title{Understanding the For Loop in C}
+\institute{1st Semester MCA\\Roll No.: 03} 
+\date{November 8, 2024} 
+\begin{document} 
+
+\frame{\titlepage} 
+
+\begin{frame}{Contents}
+    \tableofcontents
+\end{frame}
+
+% Introduction
+\section{Introduction}
+\begin{frame}{Introduction to "For Loop" in C}
+    \begin{itemize}
+        \item The \textbf{for} loop is a control flow statement in C.
+        \item Used for repeating a block of code a specific number of times.
+        \item Commonly used for iterating over arrays, performing calculations, and controlling program flow.
+    \end{itemize}
+\end{frame}
+
+% Syntax
+\section{Syntax}
+\begin{frame}{For Loop Syntax}
+    \begin{block}{Syntax}
+    \begin{texttt}
+        for (initialization; condition; update) \\
+        \{                                      \\
+            Code to execute                     \\
+        \}    
+    \end{texttt}
+    \end{block}
+    \begin{itemize}
+        \item \textbf{initialization}: Sets the starting value of the loop variable.
+        \item \textbf{condition}: Determines if the loop should continue.
+        \item \textbf{update}: Modifies the loop variable after each iteration.
+    \end{itemize}
+\end{frame}
+
+% Working
+\section{How it Works}
+\begin{frame}{How the For Loop Works}
+    \begin{enumerate}
+        \item \textbf{Initialization:} Executed once, before the loop begins.
+        \item \textbf{Condition Check:} Evaluated before each iteration.
+        \item \textbf{Execution:} If the condition is true, the loop executes its statements.
+        \item \textbf{Update:} The loop variable is updated, then the condition is checked again.
+    \end{enumerate}
+\end{frame}
+
+% Example Code
+\section{Example Codes}
+\begin{frame}[fragile]{Example Code 1}
+    \begin{block}{Example: Print numbers 1 to 5}
+    \begin{verbatim}
+        #include <stdio.h>
+        int main() 
+        {
+            int i;
+            for (i = 1; i <= 5; i++) 
+            {
+                printf("%d ", i);
+            }
+            return 0;
+        }
+    \end{verbatim}
+    \end{block}
+    \begin{itemize}
+        \item This loop prints numbers from 1 to 5.
+    \end{itemize}
+\end{frame}
+
+% Output
+\begin{frame}{Output}
+\begin{figure}
+    \centering
+    \includegraphics[width=10cm, height=5cm]{ppt1.png}\\
+    \caption{This is the output for the above code}    
+\end{figure}
+\end{frame}
+
+% Array example
+\begin{frame}{Example Code 2}
+       \begin{figure}
+           \centering
+           \includegraphics[width=10cm]{ppt2.png}
+           \caption{Code for taking input and displaying a 2D array and its diagonal elements}
+           \label{fig:enter-label}
+       \end{figure} 
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[width=10cm]{ppt3.png}
+        \caption{Output displaying the 2D array and its diagonal elements}
+    \end{figure}
+\end{frame}
+
+% Uses of For Loop
+\section{Uses of For Loop}
+\begin{frame}{Uses of For Loop}
+    \begin{itemize}
+        \item \textbf{Iterating over arrays:} Access each element of an array.
+        \item \textbf{Repeating calculations:} Perform repetitive calculations.
+        \item \textbf{Control structures:} Create complex program flows.
+    \end{itemize}
+\end{frame}
+
+% Real-life Implementations
+\section{Real-life Implementations}
+\begin{frame}{Real-life Implementations}
+    \begin{itemize}
+        \item \textbf{Data Processing:} Process each item in a dataset.
+        \item \textbf{Game Development:} Update positions, detect collisions.
+        \item \textbf{Web Applications:} Render UI elements dynamically.
+    \end{itemize}
+\end{frame}
+
+% Advantages and Limitations
+\section{Advantages and Limitations}
+\begin{frame}{Advantages and Limitations}
+    \begin{itemize}
+        \item \textbf{Advantages:}
+            \begin{itemize}
+                \item Easy to understand and implement.
+                \item Efficiently manages repetitive tasks.
+            \end{itemize}
+        \item \textbf{Limitations:}
+            \begin{itemize}
+                \item Can lead to infinite loops if the condition is not managed properly.
+                \item Limited by data types and range.
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Summary
+\section{Summary}
+\begin{frame}{Summary}
+    \begin{itemize}
+        \item The \texttt{for} loop is a fundamental concept in C programming.
+        \item It is widely used for repetitive tasks.
+        \item Important for iterating through data and managing program flow.
+    \end{itemize}
+\end{frame}
+
+
+\end{document}
