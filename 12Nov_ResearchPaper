@@ -11,6 +11,8 @@
 \begin{document}
 \maketitle
 
+\newpage
+
 \begin{abstract}
 Quantum computing is a revolutionary technology that leverages quantum mechanics to solve complex computational problems beyond the capacity of classical computers. This paper provides an overview of the principles of quantum computing, including qubits, superposition, and entanglement. We discuss various quantum algorithms, their applications in fields such as cryptography and drug discovery, and the current challenges in developing scalable quantum computers.
 \end{abstract}
